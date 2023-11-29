@@ -1,4 +1,4 @@
-# Draw Lines For Graph
+# Five Number Summary Calculator
 
 A command line app for calculating the five number summary for a set of numbers.
 
