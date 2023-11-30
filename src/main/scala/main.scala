@@ -24,7 +24,7 @@ def main(): Unit = {
     breakable{
       println("Enter a set of numbers separated by commas")
       val numbers = readLine()
-      if numbers == null then break
+      if numbers == null || numbers.trim.isEmpty then break
       val parts = numbers.split(",")
       val list = parts.map(_.trim.toInt)
       list.toList.toFiveNumberSummary() match
